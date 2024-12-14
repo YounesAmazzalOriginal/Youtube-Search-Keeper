@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Keeper</title>
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css -->
+    <link rel="stylesheet" id="stylesheet" href="style.css" />
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="Img/favPng.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-logo-and-bar">
+        <button>
+          <i class="fa-solid fa-bars bar"></i>
+        </button>
+        <img src="Img/Youtube-Logo-White.png" class="logo" alt="youtube-logo" />
+      </div>
+      <div class="search-container">
+        <div class="search-bar-container">
+          <input type="text" placeholder="Search" class="search-input" />
+          <button title="clear" class="clear">
+            <!-- <i class="fa-solid fa-xmark"></i> -->
+            <img src="Img/clear.png" alt="" />
+          </button>
+          <button title="search" class="search-button">
+            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+            <img src="Img/Search.png" alt="" />
+          </button>
+        </div>
+        <div class="suggestions-list">
+          <!-- 
+        <div class="single-suggestion">
+          <h5>how to build a robot</h5>
+          <button class="delete-suggestion">Delete</button>
+        </div> -->
+        </div>
+      </div>
+      <div class="links">
+        <button class="link" title="link1">1</button>
+        <button class="link" title="link2">2</button>
+        <button class="link" title="link3">3</button>
+        <button class="link" title="link4">4</button>
+        <button
+          class="link theme-link"
+          title="Change Theme"
+          onclick="changeTheme()"
+        >
+          <i class="fa-solid fa-sun"></i>
+        </button>
+      </div>
+    </nav>
+  </body>
+</html>
