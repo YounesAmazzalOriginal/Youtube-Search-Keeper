@@ -154,6 +154,26 @@ nav .bar {
   text-decoration: underline;
 }
 
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-block: 10px;
+  background-color: var(--icon-bg);
+}
+footer .footer-links-container {
+  display: flex;
+  gap: 20px;
+}
+footer .copyright,
+footer .footer-links-container a i {
+  color: var(--white);
+}
+
 #stylesheet {
   transition: all 0.4s;
 }
